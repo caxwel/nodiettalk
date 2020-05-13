@@ -2,5 +2,12 @@
     "name": "No Diet Talk",
     "version": "1.0",
     "description": "stay healthy, stay safe, and get cooking",
-    "manifest_version": 2
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["replace.js"],
+            "run_at": "document_end"
+        }
+    ]
   }
