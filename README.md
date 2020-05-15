@@ -4,4 +4,6 @@
 
 For a lot of people, talking about weight loss is the opposite of healthy, but dietary restrictions call for getting creative with recipe browsing. Browse safely and stay healthy with this extremely simple extension!
 
+Click the icon when you navigate to a recipe blog to activate 🌲🍄🐚 NO DIET TALK MODE
+
 ### Coming soon: try it out via the Chrome Web store!
