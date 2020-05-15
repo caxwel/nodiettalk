@@ -19,12 +19,5 @@
             "24": "icon2.png",
             "32": "icon3.png"
         }
-    },
-    "content_scripts": [
-        {
-            "matches": ["<all_urls>"],
-            "js": ["wordmap.js"],
-            "run_at": "document_end"
-        }
-    ]
+    }
   }
