@@ -24,6 +24,8 @@ diettalk.set('shed the pounds','☘️');
 diettalk.set('shed those pounds','🌿');
 diettalk.set('shed some extra pounds','🌳');
 diettalk.set('shed the extra pounds','🌲');
+diettalk.set('drop the','🌲');
+diettalk.set('dropping the','🌲');
 diettalk.set('waistline','🍃');
 diettalk.set('weight loss','🍂');
 diettalk.set('increased lifespan','💦');
@@ -41,11 +43,11 @@ diettalk.set('catch up to you','🌙');
 diettalk.set('old habits','🐿');
 diettalk.set('holiday pounds','🐕');
 diettalk.set('holiday weight','🐕');
-dictionary.set('winter body','🐕');
-dictionary.set('beach body','🐬');
-dictionary.set('summer body','🐬');
-dictionary.set('bikini body','🦑');
-dictionary.set('packing on the pounds','🦎');
+diettalk.set('winter body','🐕');
+diettalk.set('beach body','🐬');
+diettalk.set('summer body','🐬');
+diettalk.set('bikini body','🦑');
+diettalk.set('packing on the pounds','🦎');
 
 // sort by length to avoid weird repeats
 let sortable = Array.from(diettalk);
