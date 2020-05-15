@@ -1,9 +1,17 @@
 const allElements = [...document.body.getElementsByTagName('*')];
 
+let regexs = new Map();
+for (let word of alldiettalk.keys()) {
+    regexs.set(word, new RegExp(word, 'gi'));
+}
+
 function replaceText(node) {
-    let value = node.nodeValue;
-    value = value.replace(/the/gi, 'Smefanye');
-    node.nodeValue = value;
+    let value = node.textContent;
+    for (let [word, image] of alldiettalk) {
+        const regex = regexs.get(word);
+        value = value.replace(regex, image);
+    }
+    node.textContent = value;
 }
 
 function search() {
@@ -11,7 +19,7 @@ function search() {
         element.childNodes.forEach(node => {
             if(node.nodeType === 3) {
                 replaceText(node);
-            }
+            } 
         });
     });
 }
