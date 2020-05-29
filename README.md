@@ -6,4 +6,4 @@ For a lot of people, talking about weight loss is the opposite of healthy, but d
 
 Click the icon when you navigate to a recipe blog to activate 🌲🍄🐚 NO DIET TALK MODE
 
-### Coming soon: try it out via the Chrome Web Store!
+### Try it out via the Chrome Web Store! Let the palm tree guide you --> [🌴] (https://chrome.google.com/webstore/detail/no-diet-talk/afcccemlpogdcdldlcgoaepcolcplcln)
